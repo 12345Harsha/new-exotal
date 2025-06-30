@@ -1,0 +1,14 @@
+{
+  "name": "elevenlabs-telecmi-ws-bridge",
+  "version": "1.0.0",
+  "description": "Bridge Exotel to ElevenLabs via WebSocket",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "client": "node client.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ws": "^8.13.0"
+  }
+}
